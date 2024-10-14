@@ -41,8 +41,13 @@ cd rectangle-drawing-react-frontend
 ```bash
 npm install
 ```
+4. Set your localhost URL of the swagger on rectangle-service.ts. For example my localhost URL is:
 
-4. Start the development server:
+```bash
+API_URL = 'https://localhost:7275/api/Rectangle';
+```
+
+5. Start the development server:
 ```bash
 npm start
 ```
