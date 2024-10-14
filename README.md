@@ -47,6 +47,4 @@ npm install
 npm start
 ```
 The app will be available at http://localhost:3000 in your browser.
-
-
-Rectangle Drawing React Frontend
+The Rectangle directory is already assigned on the App.tsx file, so the browser will directly display the Rectangle page.
