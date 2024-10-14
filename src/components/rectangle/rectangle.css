@@ -1,0 +1,54 @@
+.rectangle-container {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .rectangle-svg {
+    border: 1px solid black;
+    margin: 20px 0;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-left: 10px;
+    width: 60px;  /* Decrease the width */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;  /* Reduce font size */
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  input[type="number"] {
+    text-align: center; /* Center the number in input fields */
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
